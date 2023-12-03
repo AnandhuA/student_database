@@ -33,6 +33,7 @@ class _AddStudentState extends State<AddStudent> {
           Padding(
             padding: const EdgeInsets.symmetric(vertical: 45, horizontal: 30),
             child: Form(
+              autovalidateMode: AutovalidateMode.onUserInteraction,
               key: formkey,
               child: Column(children: [
                 TextFormField(
